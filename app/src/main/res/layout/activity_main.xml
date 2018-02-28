@@ -25,15 +25,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:padding="16dp">
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/store"/>
 
         <Button
-            android:layout_width="wrap_content"
+            android:id="@+id/store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/store" />
+
+        <Button
+            android:id="@+id/retrieve"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="@string/retrieve"/>
+
     </LinearLayout>
 
 </LinearLayout>
