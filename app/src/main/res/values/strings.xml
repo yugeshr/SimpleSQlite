@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleSQlite</string>
+    <string name="hint_name">Enter Name</string>
+    <string name="hint_number">Enter Number</string>
+    <string name="store">Store</string>
+    <string name="retrieve">Retrieve</string>
+</resources>
